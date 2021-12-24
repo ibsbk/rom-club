@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: rgba(241, 241, 255, 0.44);
+}
+
+.nav{
+    height: 10vh;
+    background-color: rgba(178, 179, 255, 0.52);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-side{
+}
+
+.big-text{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left-side a {
+    color: #000;
+}
+
+.content-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item{
+    margin-top: 25px;
+}
+
+.right-side a{
+    color: #000;
+    margin: 0 10px;
+}
+
+.histories{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.history{
+    padding: 15px;
+    margin: 5px 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.admins span{
+    margin: 0 10px;
+}
+
+.error{
+    color: red;
+}
+
+.des{
+    margin-top: 20px;
+}
+
+.heroes{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.hero{
+    background-color: lavender;
+    padding: 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.hero-image{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.hero-desc{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hero-desc div{
+    margin: 0 5px;
+}
